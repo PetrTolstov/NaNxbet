@@ -16,7 +16,6 @@ function EventItem({ info }: { info: Event }) {
     function makeABet() {
         if (isNaN(parseInt(amountBet)) || parseInt(amountBet) < 1) {
             toast.warning("Please make a correct bet");
-            
             return;
         }
         const bet = new BetClass(
@@ -49,7 +48,9 @@ function EventItem({ info }: { info: Event }) {
                 defaultValue={currentVariant}
             >
                 {info.variants.map((el) => (
-                    <option value={el._id} key={el._id}>{el.title}</option>
+                    <option value={el._id} key={el._id}>
+                        {el.title}
+                    </option>
                 ))}
             </select>
             {info.variants.map((el) => {

@@ -21,14 +21,13 @@
     align-items: center;
     justify-content: center;
     padding: 7px;
-    
 }
 
 .mediumSize {
     padding: 3px 20px;
 }
 
-.largeSize{
+.largeSize {
     width: 100%;
 }
 

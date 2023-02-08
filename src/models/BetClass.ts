@@ -5,7 +5,6 @@ export default class BetClass {
     betVariant: BetVariant;
     sum: number;
 
-
     constructor(id: string, betVariant: BetVariant, sum: number) {
         this._id = id;
         this.betVariant = betVariant;

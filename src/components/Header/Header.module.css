@@ -19,7 +19,6 @@
     display: flex;
 }
 
-
 .h {
     all: unset;
     display: flex;
@@ -27,14 +26,12 @@
     font-size: 26px;
     font-weight: 600;
     color: #ffffff;
-   
 }
 
-.buttons img{
+.buttons img {
     width: 25px;
 }
 
-
-.amountBets{
+.amountBets {
     font-size: 12px;
 }

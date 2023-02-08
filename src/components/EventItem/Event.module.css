@@ -15,7 +15,6 @@
     font-weight: 500;
 }
 
-
 .date {
     font-size: 12px;
     margin-bottom: 10px;
@@ -30,8 +29,6 @@
     margin-bottom: 5px;
 }
 
-
-
 .betText {
     margin-bottom: 5px;
 }
@@ -42,11 +39,11 @@
     border-radius: 10px;
     outline: none;
     margin-bottom: 5px;
-    
+
     margin-bottom: 15px;
 }
 
-.inputContainer{
+.inputContainer {
     display: flex;
     justify-content: center;
 }

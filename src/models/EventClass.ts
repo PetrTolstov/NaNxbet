@@ -1,4 +1,4 @@
-import BetVariant from './BetVariantClass';
+import BetVariant from "./BetVariantClass";
 
 export default class EventClass {
     _id: string;
@@ -6,8 +6,8 @@ export default class EventClass {
     description: string;
     startDate: string;
     endDate: string;
-    variants: BetVariant[]
-    
+    variants: BetVariant[];
+
     constructor(
         id: string,
         title: string,

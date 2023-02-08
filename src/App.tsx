@@ -8,7 +8,7 @@ import EventItem from "./components/EventItem/EventItem";
 import BetVariant from "./models/BetVariantClass";
 import EventClass from "./models/EventClass";
 import Header from "./components/Header/Header";
-import { v4 as uuidv4 } from 'uuid';
+import { v4 as uuidv4 } from "uuid";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -27,16 +27,14 @@ function App() {
                 {EvensStore.events.list ? (
                     <>
                         {[...EvensStore.events.list].map((el) => (
-                            <EventItem info={el}  key={uuidv4()}/>
+                            <EventItem info={el} key={uuidv4()} />
                         ))}
                     </>
                 ) : (
                     <>Loading</>
                 )}
             </main>
-            <ToastContainer
-				theme="dark"
-			/>
+            <ToastContainer theme="dark" />
         </>
     );
 }

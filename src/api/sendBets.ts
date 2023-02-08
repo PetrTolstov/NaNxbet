@@ -14,14 +14,14 @@ function CheckDateIsOk() {
         ) {
             let date = EvensStore.events?.list?.at(index)?.endDate;
             if (new Date().getTime() > new Date(`${date}`).getTime()) {
-                BagStore.deleteBet(el._id)
+                BagStore.deleteBet(el._id);
                 found = false;
             }
         }
     }
-    return found
+    return found;
 }
 
-export default async function sendBets(){
-    return CheckDateIsOk()
+export default async function sendBets() {
+    return CheckDateIsOk();
 }

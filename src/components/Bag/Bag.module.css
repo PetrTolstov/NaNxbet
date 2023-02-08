@@ -6,31 +6,29 @@
     min-height: 400px;
 }
 
-.infoContainer{
+.infoContainer {
     width: 100%;
     display: flex;
     flex-direction: column;
-    
+
     align-items: center;
 }
 
-.buttonFlexContainer{
+.buttonFlexContainer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.buttonContainer button{
-    
+.buttonContainer button {
     padding: 0;
-
 }
 
-.buttonContainer img{
+.buttonContainer img {
     width: 17px;
 }
 
-.betContainer{
+.betContainer {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -39,23 +37,22 @@
     margin-bottom: 10px;
 }
 
-
-.title{
+.title {
     text-align: start;
     font-size: 18px;
 }
 
-.coefficientXSum{
+.coefficientXSum {
     font-size: 12px;
     font-weight: 400;
 }
 
-.sum{
+.sum {
     text-align: end;
     font-weight: 600;
 }
 
-.bill{
+.bill {
     padding-left: 5px;
     font-weight: 500;
 }

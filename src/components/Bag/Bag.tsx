@@ -6,7 +6,7 @@ import Button, { Size } from "../Button/Button";
 import { v4 as uuidv4 } from "uuid";
 import EvensStore from "../../stores/EvensStore";
 import sendBets from "../../api/sendBets";
-import { toast } from 'react-toastify';
+import { toast } from "react-toastify";
 
 export type BagProps = {
     closeModal: (wAn?: boolean) => void;
@@ -16,12 +16,14 @@ function Bag({ closeModal }: BagProps) {
 
     async function Submit() {
         await sendBets().then((res) => {
-            console.log(res)
+            console.log(res);
             if (res) {
                 BagStore.clearBag();
                 closeModal();
-            }else{
-                toast.error("Some bets are unavalible, so we have deleted them")
+            } else {
+                toast.error(
+                    "Some bets are unavalible, so we have deleted them"
+                );
             }
         });
     }
