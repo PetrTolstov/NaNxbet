@@ -1,0 +1,68 @@
+{
+    "data": [
+        {
+            "_id": "0",
+            "title": "Example title 0",
+            "description": "Example description",
+            "startDate": "03-03-2023",
+            "endDate": "03-20-2023",
+            "variants": [
+                {
+                    "_id": "v00",
+                    "title": "Some bet tittle 00",
+                    "coefficient": 1.5
+                },
+                {
+                    "_id": "v01",
+                    "title": "Some bet tittle 01",
+                    "coefficient": 2
+                },
+                {
+                    "_id": "v02",
+                    "title": "Some bet tittle 02",
+                    "coefficient": 3
+                }
+            ]
+        },
+        {
+            "_id": "1",
+            "title": "Example title 1",
+            "description": "Example description 1",
+            "startDate": "03-03-2023",
+            "endDate": "03-20-2023",
+            "variants": [
+                {
+                    "_id": "v10",
+                    "title": "Some bet tittle 10",
+                    "coefficient": 1.5
+                },
+                {
+                    "_id": "v11",
+                    "title": "Some bet tittle 11",
+                    "coefficient": 2
+                },
+                { "_id": "v12", "title": "Some bet tittle 12", "coefficient": 3 }
+            ]
+        },
+        {
+            "_id": "2",
+            "title": "Example title 2",
+            "description": "Example description 2",
+            "startDate": "03-03-2023",
+            "endDate": "03-20-2023",
+            "variants": [
+                {
+                    "_id": "v20",
+                    "title": "Some bet tittle 20",
+                    "coefficient": 1.5
+                },
+                {
+                    "_id": "v21",
+                    "title": "Some bet tittle 21",
+                    "coefficient": 2
+                },
+                { "_id": "202", "title": "Some bet tittle 22", "coefficient": 3 }
+            ]
+        }
+    ]
+}

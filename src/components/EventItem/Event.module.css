@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    margin: 15px 0;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px 20px;
+    background-color: rgb(59, 59, 59);
+    border-radius: 10px;
+    color: rgb(230, 230, 230);
+}
+
+.title {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+
+.date {
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.select {
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 5px;
+}
+
+.betContainer {
+}
+
+.betText {
+    margin-bottom: 5px;
+}
+
+.betInput {
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 5px;
+    
+    margin-bottom: 15px;
+}
+
+.inputContainer{
+    display: flex;
+    justify-content: center;
+}
