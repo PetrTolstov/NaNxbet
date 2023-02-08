@@ -21,6 +21,12 @@ class BagStore {
         return this.bag.list.length;
     }
 
+    deleteBet(id: string){
+        this.bag.list = this.bag.list.filter((el) => {
+            return el._id !== id
+        })
+    }
+
     isBetThere(bet: BetClass) {
         let found = false;
         this.bag.list.forEach((item) => {

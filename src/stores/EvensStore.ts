@@ -6,17 +6,12 @@ class EvensStore {
         makeAutoObservable(this);
     }
 
-    events: { list: Set<EventClass> | null } = {
-        list: new Set<EventClass>(),
+    events: { list: EventClass[] | null } = {
+        list: [],
     };
 
-
     setEvents(events: EventClass[]) {
-        
-        this.events.list = new Set([...events]);
-        
-        
-       
+        this.events.list = events;
     }
 }
 

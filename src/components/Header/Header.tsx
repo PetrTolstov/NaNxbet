@@ -40,8 +40,11 @@ function Header() {
                 closeModal={() => setShowingBag(false)}
             >
                 <Bag
-                    closeModal={() => {
-                        setAnimate(true);
+                    closeModal={(wAn?: boolean) => {
+                        if (!wAn) {
+                            setAnimate(true);
+                        }
+
                         setShowingBag(false);
                     }}
                 />

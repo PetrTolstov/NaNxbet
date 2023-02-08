@@ -26,10 +26,10 @@
         },
         {
             "_id": "1",
-            "title": "Example title 1",
-            "description": "Example description 1",
-            "startDate": "03-03-2023",
-            "endDate": "03-20-2023",
+            "title": "Example title 1 (unavalible)",
+            "description": "These bets are unavalible, because event date was expired. Try it to see emulation of error in Bag",
+            "startDate": "01-01-2023",
+            "endDate": "01-20-2023",
             "variants": [
                 {
                     "_id": "v10",
