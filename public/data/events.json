@@ -4,8 +4,8 @@
             "_id": "0",
             "title": "Example title 0",
             "description": "Example description",
-            "startDate": "03-03-2023",
-            "endDate": "03-20-2023",
+            "startDate": "03/03/2023",
+            "endDate": "03/20/2023",
             "variants": [
                 {
                     "_id": "v00",
@@ -28,8 +28,8 @@
             "_id": "1",
             "title": "Example title 1 (unavalible)",
             "description": "These bets are unavalible, because event date was expired. Try it to see emulation of error in Bag",
-            "startDate": "01-01-2023",
-            "endDate": "01-20-2023",
+            "startDate": "01/01/2023",
+            "endDate": "01/20/2023",
             "variants": [
                 {
                     "_id": "v10",
@@ -48,8 +48,8 @@
             "_id": "2",
             "title": "Example title 2",
             "description": "Example description 2",
-            "startDate": "03-03-2023",
-            "endDate": "03-20-2023",
+            "startDate": "03/03/2023",
+            "endDate": "03/20/2023",
             "variants": [
                 {
                     "_id": "v20",
